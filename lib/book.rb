@@ -24,7 +24,7 @@ class Book
     @genre = genre_name 
   end
   def turn_page
-     @page_count + 1
+     @page_count.to_int + 1
   end 
 
 end 
